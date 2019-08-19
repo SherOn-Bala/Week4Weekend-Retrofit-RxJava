@@ -195,6 +195,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void updateForecastUI(HourlyForecast hourlyForecast) {
+        getSupportActionBar().setTitle(String.format(
+                Locale.US,
+                "Umbrella: %s",
+                hourlyForecast.getCity().getName()
+        ));
+
         adapter.setData(hourlyForecast.getList());
     }
 }

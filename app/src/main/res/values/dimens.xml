@@ -2,5 +2,5 @@
 <resources>
     <dimen name="title">20sp</dimen>
     <dimen name="margin">5dp</dimen>
-    <dimen name="diameter">200dp</dimen>
+    <dimen name="diameter">250dp</dimen>
 </resources>
