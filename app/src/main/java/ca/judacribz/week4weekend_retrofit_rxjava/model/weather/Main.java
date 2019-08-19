@@ -7,8 +7,7 @@ import android.os.Parcelable;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class Main implements Parcelable
-{
+public class Main implements Parcelable {
 
     @SerializedName("temp")
     @Expose
@@ -38,7 +37,7 @@ public class Main implements Parcelable
 
 
         @SuppressWarnings({
-            "unchecked"
+                "unchecked"
         })
         public Main createFromParcel(Parcel in) {
             return new Main(in);
@@ -48,8 +47,7 @@ public class Main implements Parcelable
             return (new Main[size]);
         }
 
-    }
-    ;
+    };
 
     protected Main(Parcel in) {
         this.temp = ((Float) in.readValue((Float.class.getClassLoader())));
@@ -64,13 +62,11 @@ public class Main implements Parcelable
 
     /**
      * No args constructor for use in serialization
-     * 
      */
     public Main() {
     }
 
     /**
-     * 
      * @param seaLevel
      * @param humidity
      * @param pressure
@@ -168,7 +164,7 @@ public class Main implements Parcelable
     }
 
     public int describeContents() {
-        return  0;
+        return 0;
     }
 
 }

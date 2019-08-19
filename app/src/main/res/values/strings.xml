@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">Week4Weekend-Retrofit-RxJava</string>
+    <string name="app_name">Umbrella</string>
+    <string name="zip">Zip Code: %d</string>
+    <string name="celsius">°C</string>
+    <string name="fahrenheit">°F</string>
+    <string name="cnt_weather_icon">Weather Icon</string>
+    <string name="err_valid_zipcode">Enter Valid Zipcode (XXXXXX)</string>
+    <string name="cnt_edit_zipcode">Edit Zipcode</string>
 </resources>

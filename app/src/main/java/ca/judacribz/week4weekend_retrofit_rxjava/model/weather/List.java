@@ -4,11 +4,11 @@ package ca.judacribz.week4weekend_retrofit_rxjava.model.weather;
 import android.os.Parcel;
 import android.os.Parcelable;
 import android.os.Parcelable.Creator;
+
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class List implements Parcelable
-{
+public class List implements Parcelable {
 
     @SerializedName("dt")
     @Expose
@@ -38,7 +38,7 @@ public class List implements Parcelable
 
 
         @SuppressWarnings({
-            "unchecked"
+                "unchecked"
         })
         public List createFromParcel(Parcel in) {
             return new List(in);
@@ -48,8 +48,7 @@ public class List implements Parcelable
             return (new List[size]);
         }
 
-    }
-    ;
+    };
 
     protected List(Parcel in) {
         this.dt = ((Integer) in.readValue((Integer.class.getClassLoader())));
@@ -64,13 +63,11 @@ public class List implements Parcelable
 
     /**
      * No args constructor for use in serialization
-     * 
      */
     public List() {
     }
 
     /**
-     * 
      * @param clouds
      * @param dt
      * @param wind
@@ -168,7 +165,7 @@ public class List implements Parcelable
     }
 
     public int describeContents() {
-        return  0;
+        return 0;
     }
 
 }
