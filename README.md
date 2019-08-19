@@ -6,4 +6,4 @@
 </p>
 
 ### Code Instructions ###
-[Walmart Challege](Instructions/WalmartChallenge.pdf)
+[Walmart Challege](instructions/WalmartChallange.pdf)
