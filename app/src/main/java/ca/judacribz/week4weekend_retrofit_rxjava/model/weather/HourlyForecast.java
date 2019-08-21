@@ -10,9 +10,6 @@ import com.google.gson.annotations.SerializedName;
 public class HourlyForecast implements Parcelable
 {
 
-    public static final String BASE_URL = "https://api.openweathermap.org/";
-    public static final String APP_ID = "39353ddedb6d50945fdce093e588fcfe";
-
     @SerializedName("cod")
     @Expose
     private String cod;

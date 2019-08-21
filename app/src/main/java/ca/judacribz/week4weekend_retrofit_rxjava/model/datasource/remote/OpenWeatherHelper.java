@@ -1,21 +1,11 @@
 package ca.judacribz.week4weekend_retrofit_rxjava.model.datasource.remote;
 
 
-import androidx.annotation.NonNull;
-
-import org.greenrobot.eventbus.EventBus;
-
-import ca.judacribz.week4weekend_retrofit_rxjava.model.events.HourlyForecastEvent;
-import ca.judacribz.week4weekend_retrofit_rxjava.model.weather.HourlyForecast;
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-import static ca.judacribz.week4weekend_retrofit_rxjava.model.weather.HourlyForecast.APP_ID;
-import static ca.judacribz.week4weekend_retrofit_rxjava.model.weather.HourlyForecast.BASE_URL;
+import static ca.judacribz.week4weekend_retrofit_rxjava.model.weather.Constants.BASE_URL;
 
 public class OpenWeatherHelper {
 

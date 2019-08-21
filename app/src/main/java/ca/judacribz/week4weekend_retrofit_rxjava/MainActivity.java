@@ -36,7 +36,7 @@ import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.schedulers.Schedulers;
 
 import static ca.judacribz.week4weekend_retrofit_rxjava.model.weather.Constants.WEATHER_ICON;
-import static ca.judacribz.week4weekend_retrofit_rxjava.model.weather.HourlyForecast.APP_ID;
+import static ca.judacribz.week4weekend_retrofit_rxjava.model.weather.Constants.APP_ID;
 import static ca.judacribz.week4weekend_retrofit_rxjava.util.Calculate.kelvinToFahrenheit;
 
 public class MainActivity extends AppCompatActivity {

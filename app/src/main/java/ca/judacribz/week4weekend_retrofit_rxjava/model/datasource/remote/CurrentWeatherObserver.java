@@ -5,8 +5,6 @@ import android.util.Log;
 import org.greenrobot.eventbus.EventBus;
 
 import ca.judacribz.week4weekend_retrofit_rxjava.model.events.CurrentWeatherEvent;
-import ca.judacribz.week4weekend_retrofit_rxjava.model.events.HourlyForecastEvent;
-import ca.judacribz.week4weekend_retrofit_rxjava.model.weather.HourlyForecast;
 import ca.judacribz.week4weekend_retrofit_rxjava.model.weather.List;
 import io.reactivex.Observer;
 import io.reactivex.disposables.Disposable;
